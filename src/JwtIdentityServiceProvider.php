@@ -31,6 +31,6 @@ class JwtIdentityServiceProvider extends ServiceProvider
             ], 'jwt-identity-config');
         }
 
-        $router->aliasMiddleware('jwt.guard', JwtIdentityMiddleware::class);
+        $router->aliasMiddleware('jwt.identity', JwtIdentityMiddleware::class);
     }
 }
