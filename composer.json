@@ -1,6 +1,6 @@
 {
-    "name": "cubotecnologia/laravel-jwt-identity-guard",
-    "description": "JWT Identity + Type Authorization middleware for Laravel microservices",
+    "name": "tonybrh/jwt-identity-lib",
+    "description": "JWT identity guard middleware for Laravel microservices",
     "type": "library",
     "license": "MIT",
     "require": {
@@ -10,13 +10,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Cubotecnologia\\JwtIdentityGuard\\": "src/"
+            "Tonybrh\\JwtIdentityLib\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "app\\JwtIdentityGuard\\JwtIdentityServiceProvider"
+                "Tonybrh\\JwtIdentityLib\\JwtIdentityServiceProvider"
             ]
         }
     }
