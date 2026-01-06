@@ -1,6 +1,6 @@
 <?php
 
-namespace Cubotecnologia\JwtIdentityGuard\Http\Middleware;
+namespace Tonybrh\JwtIdentityLib\Http\Middleware;
 
 use Closure;
 use Illuminate\Http\Request;

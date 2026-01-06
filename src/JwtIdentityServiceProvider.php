@@ -1,8 +1,8 @@
 <?php
 
-namespace Cubotecnologia\JwtIdentityGuard;
+namespace Tonybrh\JwtIdentityLib;
 
-use Cubotecnologia\JwtIdentityGuard\Http\Middleware\JwtIdentityMiddleware;
+use Tonybrh\JwtIdentityLib\Http\Middleware\JwtIdentityMiddleware;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Routing\Router;
 
